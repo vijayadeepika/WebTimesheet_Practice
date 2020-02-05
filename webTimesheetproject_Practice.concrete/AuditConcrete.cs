@@ -16,6 +16,7 @@ namespace webTimesheetproject_Practice.concrete
             {
                 _context.auditConcretes.Add(audittb);
                 _context.SaveChanges();
+                //error we get here
             }
         }
     }
