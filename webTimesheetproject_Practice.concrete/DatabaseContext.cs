@@ -15,6 +15,7 @@ namespace webTimesheetproject_Practice.concrete
 
         }
         public DbSet<AuditTB> auditConcretes { get; set; }
+        public DbSet<Registration> registraion { get; set; }
 
         //public System.Data.Entity.DbSet<TimeSheetPractice.models.LoginViewModel> LoginViewModels { get; set; }
     }

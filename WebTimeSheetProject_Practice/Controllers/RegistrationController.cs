@@ -4,25 +4,20 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using webtimesheet_Practice.models;
-    
 namespace WebTimeSheetProject_Practice.Controllers
 {
-    public class LoginController : Controller
+    public class RegistrationController : Controller
     {
-        //private Ilogin _ilogin;
-
-        // GET: Login
-        [HttpGet]
-        public ActionResult Login()
+        
+        // GET: Registration
+        public ActionResult Registration()
         {
             return View();
         }
-        public ActionResult Login(LoginViewModel lm)
+        public ActionResult Registration(Registration rs)
         {
-            var username = lm.Username;
-            var password = lm.Password;
-
             return View();
+          
         }
     }
 }
