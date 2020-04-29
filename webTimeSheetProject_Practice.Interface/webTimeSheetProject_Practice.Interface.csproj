@@ -375,6 +375,7 @@
     <Compile Include="IAudit.cs" />
     <Compile Include="ILogin.cs" />
     <Compile Include="IRegistration.cs" />
+    <Compile Include="IRole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
